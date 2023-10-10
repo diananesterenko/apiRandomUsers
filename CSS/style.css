@@ -1,0 +1,85 @@
+:root {
+  background-color: grey;
+  --grey_color: rgba(111, 111, 111, 0.822);
+  --radius: 20px;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.usersList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.users {
+  border: rgba(255, 247, 0, 0.564) 1px solid;
+  box-shadow: rgb(180, 0, 0) 0 0 5px;
+  margin: 25px;
+  border-radius: var(--radius);
+}
+.usersHeader {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  padding: 10px 20px;
+  border-radius: 20px 20px 0px 0px;
+}
+.photo {
+  border-radius: 50%;
+  width: 120px;
+  overflow: hidden;
+}
+.avatar {
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.newsTitle {
+  padding: 35px 10px 20px 10px;
+  margin: 0;
+  text-align: center;
+}
+
+.like,
+.delete {
+  right: 0;
+  position: absolute;
+  padding: 6px;
+  border: rgb(35, 35, 35) 1px solid;
+  border-radius: 50%;
+  margin: 5px;
+  box-shadow: 2px 2px 3px rgba(45, 45, 45, 0.79);
+}
+.onlike {
+  background-color: yellow;
+}
+.highlightLi {
+  background-color: rgba(255, 192, 203, 0.768);
+}
+.userContent {
+  padding: 0px 20px 10px 20px;
+  position: relative;
+  background-color: rgb(219, 219, 219);
+  border-radius: 0px 0px 20px 20px;
+}
+.country,
+.email,
+.phone {
+  text-transform: uppercase;
+  font-weight: 170;
+  color: rgb(113, 113, 113);
+  margin: 0;
+  padding: 10px;
+}
+.email {
+  font-size: 14px;
+}
+
+.delete {
+  bottom: 0;
+}
